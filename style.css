@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(62, 62, 255);
+}
+.main{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-left: 5%;
+
+}
+.counter{
+    /* text-align: center; */
+    color: rgb(217, 217, 20);
+    font: 500 35px "montserrat";
+    
+}
+span{
+    color: rgb(162, 168, 173);
+    font: 500 18px "montserrat";
+
+}
